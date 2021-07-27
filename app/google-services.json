@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "534654119389",
+    "project_id": "gpstrack-218a8",
+    "storage_bucket": "gpstrack-218a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534654119389:android:8ab892b2042aa0d7b01a34",
+        "android_client_info": {
+          "package_name": "com.example.userdataapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534654119389-kkpkobkd3bf8mt0gvvaif2p2kkfsifg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUMf8_Iu9XRNHDGTNOhHjK-Bx254mL9Hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534654119389-kkpkobkd3bf8mt0gvvaif2p2kkfsifg1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
