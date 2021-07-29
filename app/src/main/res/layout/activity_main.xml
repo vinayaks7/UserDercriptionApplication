@@ -43,7 +43,6 @@
         android:layout_weight="1"
         />
 
-
     <EditText
         android:id="@+id/gender"
         android:layout_width="match_parent"
@@ -52,8 +51,22 @@
         android:inputType="text"
         android:layout_weight="1"
         />
-
-
+    <Button
+        android:id="@+id/addphoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Add Photo"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/addvideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Add Video"
+        android:textSize="20sp"
+        />
     <Button
         android:id="@+id/onSubmit"
         android:layout_width="match_parent"
@@ -62,12 +75,4 @@
         android:text="Submit"
         android:textSize="20sp"
         />
-
-
-
-
-
-
-
-
 </LinearLayout>

@@ -2,45 +2,47 @@ package com.example.userdataapp;
 
 public class User {
 
-    String Name;
-    String PhoneNo;
-    String  emailid;
+    String name;
+    String phoneNo;
+    String emailId;
     String age;
     String Gender;
+    String imageUri;
+    String videoUri;
 
-    public User() {
-    }
 
-    public User(String name, String phoneNo, String emailid, String age, String gender) {
-        Name = name;
-        PhoneNo = phoneNo;
-        this.emailid = emailid;
+    public User(String name, String phoneNo, String emailid, String age, String gender, String imageUri, String videoUri) {
+        this.name = name;
+        this.phoneNo = phoneNo;
+        this.emailId = emailid;
         this.age = age;
         Gender = gender;
+        this.imageUri = imageUri;
+        this.videoUri = videoUri;
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 
     public String getPhoneNo() {
-        return PhoneNo;
+        return phoneNo;
     }
 
     public void setPhoneNo(String phoneNo) {
-        PhoneNo = phoneNo;
+        this.phoneNo = phoneNo;
     }
 
-    public String getEmailid() {
-        return emailid;
+    public String getEmailId() {
+        return emailId;
     }
 
-    public void setEmailid(String emailid) {
-        this.emailid = emailid;
+    public void setEmailId(String emailId) {
+        this.emailId = emailId;
     }
 
     public String getAge() {
@@ -57,5 +59,21 @@ public class User {
 
     public void setGender(String gender) {
         Gender = gender;
+    }
+
+    public String getImageUri() {
+        return imageUri;
+    }
+
+    public void setImageUri(String imageUri) {
+        this.imageUri = imageUri;
+    }
+
+    public String getVideoUri() {
+        return videoUri;
+    }
+
+    public void setVideoUri(String videoUri) {
+        this.videoUri = videoUri;
     }
 }
